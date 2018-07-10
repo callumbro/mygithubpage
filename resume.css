@@ -1,0 +1,55 @@
+body {
+    font-family: Tahoma;
+}
+
+name {
+    font-variant: small-caps;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+a:link    {
+    color:black;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover   {
+    color:lightblue;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+hr {
+    color: blue;
+}
+
+title1 {
+    font-family: Tahoma;
+    font-variant: small-caps;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.underline {
+    border-bottom: 2px solid black;
+    width: 100%;
+    display: block;
+}
+
+table,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+td {
+    border-left: 1px solid black;
+    vertical-align: top;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+liBold {
+    font-weight: 700;
+}
