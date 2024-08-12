@@ -2,28 +2,14 @@ body {
     font-family: Tahoma;
 }
 
-name {
+h1 {
     font-variant: small-caps;
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 0;
 }
 
-a:link    {
-    color:black;
-    background-color:transparent;
-    text-decoration:none;
-}
-a:hover   {
-    color:lightblue;
-    background-color:transparent;
-    text-decoration:underline;
-}
-
-hr {
-    color: blue;
-}
-
-title1 {
+h2 {
     font-family: Tahoma;
     font-variant: small-caps;
     font-size: 24px;
@@ -50,6 +36,17 @@ ul {
     margin-bottom: 0;
 }
 
-liBold {
-    font-weight: 700;
+.center {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.resume {
+    margin: auto;
+    max-width: 720px;
 }
